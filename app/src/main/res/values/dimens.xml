@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="uc_schedule_item_horizontal">16dp</dimen>
+    <dimen name="uc_schedule_item_top">16dp</dimen>
+    <dimen name="uc_schedule_item_bottom">20dp</dimen>
+
+    <dimen name="btn_add_right">8dp</dimen>
+    <dimen name="btn_add_bottom">8dp</dimen>
+    <dimen name="ts_16">16sp</dimen>
+    <dimen name="ts_14">14sp</dimen>
+    <dimen name="ts_12">12sp</dimen>
+    <!--<dimen name="us_schedule_item_height">88dp</dimen>-->
+    <dimen name="us_schedule_item_height">88dp</dimen>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/us_schedule_item_height"
+    android:background="@drawable/list_item"
+    android:paddingBottom="@dimen/uc_schedule_item_bottom"
+    android:paddingLeft="@dimen/uc_schedule_item_horizontal"
+    android:paddingRight="@dimen/uc_schedule_item_horizontal"
+    android:paddingTop="@dimen/uc_schedule_item_top"
+    tools:context="ScheduleListActivity">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:textSize="@dimen/ts_14" />
+
+    <TextView
+        android:id="@+id/txtAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/ts_12" />
+
+    <TextView
+        android:id="@+id/txtNote"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtPhone"
+        android:textSize="@dimen/ts_14" />
+
+</RelativeLayout>
